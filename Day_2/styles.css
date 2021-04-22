@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bungee', cursive;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.bg {
+    background-image: url('ferrari.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    height: calc(100vh + 200px);
+    width: calc(100vw + 200px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loader {
+    position: relative;
+    font-size: xxx-large;
+    color: rgb(240, 240, 240);
+    top: 50px;
+}
